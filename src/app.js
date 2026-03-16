@@ -19,3 +19,6 @@ module.exports = app;
 const testRoutes = require("./routes/testRoutes");
 
 app.use("/api/test", testRoutes);
+
+const quizRoutes = require("./routes/quizRoutes");
+app.use("/api/quizzes", quizRoutes);
