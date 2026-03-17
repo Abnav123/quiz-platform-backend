@@ -35,22 +35,38 @@ A backend authentication system built using <b>Node.js</b>, <b>Express</b>, and
 
 <pre>
 project-root
+quiz-platform
 │
-├── controllers
-│   └── authController.js
+├── quiz-platform-backend
+│   ├── src
+│   ├── .env
+│   ├── .gitignore
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
 │
-├── models
-│   └── User.js
+├── quiz-platform-student
+│   ├── node_modules
+│   ├── public
+│   ├── src
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   └── vite.config.js
 │
-├── routes
-│   └── authRoutes.js
-│
-├── config
-│   └── db.js
-│
-├── server.js
-├── package.json
-└── .env
+├── quiz-platform-teacher
+│   ├── node_modules
+│   ├── public
+│   ├── src
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
 </pre>
 
 <hr>
